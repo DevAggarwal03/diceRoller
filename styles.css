@@ -1,0 +1,40 @@
+.container{
+    text-align: center;
+}
+#rollBtn{
+    font-size: 1.7em;
+    padding: 0 1.5em;
+    margin-bottom: 0.6em;
+    border-radius: 7px;
+    border: 2px solid hsl(0, 24%, 65%);
+    cursor: pointer;
+    background-color: hsl(180, 92%, 70%);
+}
+#rollBtn:hover{
+    background-color: hsl(180, 92%, 80%);
+}
+#rollBtn:active{
+    background-color: hsl(180, 92%, 90%);
+}
+.result{
+    margin: auto;
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+}
+#resLabel{
+    margin: auto;
+}
+.result #resLabel{
+    font-size: 1.4em;
+}
+#result{
+    width: 50%;
+}
+#diceImages{
+    text-align: center;
+}
+#diceImages img{
+    width: 50px;
+    height: 50px;
+}
